@@ -1,0 +1,146 @@
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+body {
+  background-color: #f7e4d4;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: block;
+}
+
+h1 {
+  font-size: 48px;
+  color: #467745;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  display: block;
+  max-width: 480px;
+  height: 64px;
+  font-size: 16px;
+  color: #467745;
+  background-color: white;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+}
+
+textarea {
+  display: block;
+  max-width: 480px;
+  height: 120px;
+  font-size: 16px;
+  color: #467745;
+  background-color: white;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.data-policy {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 16px;
+  color: #467745;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 21px;
+  text-align: center;
+  max-width: 280px;
+  height: 80px;
+  background-color: #467745;
+  color: #f7e4d4;
+  letter-spacing: 0.2rem;
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  border-radius: 40px;
+  width: 240px;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    text-align: left;
+  }
+
+  .input {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .checkbox {
+    padding-left: 20px;
+    width: 5%;
+  }
+
+  textarea {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
